@@ -64,7 +64,7 @@ This initializes an ONNX Runtime session, allowing the model to be used for infe
     }
 }`
 
-##** HOW TO RUN THIS PROGRAM VIA CLI**
+#** HOW TO RUN THIS PROGRAM VIA CLI**
 ---
 1. Install the follwoing library using pip and make sure you have python 3.12+
    `pip install argparse`
@@ -78,10 +78,10 @@ Replace the parameters as per your choice
 #**DEMO**
 ---
 
-##*server.py*
+*server.py*
 ![image](https://github.com/user-attachments/assets/587c4888-52b1-47ea-8668-0df7c1bc8d14)
 
-##*client.py*
+*client.py*
 ![image](https://github.com/user-attachments/assets/2c6f757b-26e2-4a08-8042-63c2d85d91ca)
 
 
