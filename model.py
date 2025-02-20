@@ -80,13 +80,6 @@ model.fit(df[['Amount'] + list(encoded_df.columns)])
 # Predict anomalies (1 for normal, -1 for anomalies)
 df['Anomaly'] = model.predict(df[['Amount'] + list(encoded_df.columns)])
 
-# Scatter plot with decision boundaries
-plt.scatter(df['Amount'], df['Anomaly'], c=df['Anomaly'], cmap='viridis')
-plt.title('Isolation Forest Anomaly Detection')
-plt.xlabel('Amount')
-plt.ylabel('Anomaly (1 for normal, -1 for anomalies)')
-plt.show()
-
 # Check the number of features used by the model
 n_features = model.n_features_in_
 print(f"Number of features used by the model: {n_features}")
